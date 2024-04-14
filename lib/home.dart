@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:juan_valdez/widgets/images.dart';
 import 'header.dart';
 import 'widgets/carrusel.dart';
 import 'widgets/contadores.dart';
+import 'widgets/images.dart';
 import 'widgets/redes_sociales.dart';
 
 class HomePage extends StatelessWidget {
@@ -17,6 +19,7 @@ class HomePage extends StatelessWidget {
               children: <Widget>[
                 Carrusel(),
                 Contadores(),
+                Images(),
               ],
             ),
           ),
