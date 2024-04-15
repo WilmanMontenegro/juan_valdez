@@ -117,7 +117,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                     value: 2,
                   ),
                    PopupMenuItem(
-                    child: Text('Quienes Somos'),
+                    child: Text('Medio Ambiente'),
                     value: 3,
                   ),
                    PopupMenuItem(

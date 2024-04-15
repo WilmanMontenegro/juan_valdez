@@ -19,7 +19,7 @@ class QuieneSomos extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.all(20.0),
               child: Text('Procafecol S.A. nace en 2002 con el objetivo de generar negocios de valor agregado para los caficultores y su marca Juan Valdez® que cuenta con cuatro líneas de negocio: Tiendas especializadas, grandes superficies, canal institucional y el portal e-commerce.\n\nNuestra relación con los caficultores colombianos es por varias vías: la primera, es el reconocimiento a la calidad de su café mediante el pago de una prima por calidad; la segunda, es el posicionamiento del café de Colombia en el mundo; y la tercera, es el compromiso permanente de generar valor al Fondo Nacional del Café (FoNC) para la generación de bienes públicos y los proyectos de Sostenibilidad en Acción® de la Federación de Cafeteros de Colombia.\n\nA lo largo de diez años y con importantes inversiones, logramos conformar un equipo sinérgico con conocimiento y experiencia; tenemos más de 300 tiendas operando en Colombia y más de 100 en el mundo, siendo líderes en la categoría de grandes superficies. El Café Premium Colombiano Juan Valdez nos posiciona como la marca más reconocida y admirada en nuestro país, consolidando nuestro modelo de expansión a nuevos mercados en el mundo.'
-              , style: TextStyle(color: Color(0xFF7A7A7A), fontFamily: 'aftika-bold' , fontSize: 12)),
+              , style: TextStyle(color: Color(0xFF7A7A7A), fontFamily: 'Aftika' ,fontWeight: FontWeight.w600, fontSize: 12)),
             ),
 
             const SizedBox(height:100),
@@ -198,13 +198,13 @@ class ValoresJuanValdez extends StatelessWidget {
 
         const SizedBox(height: 12),
 
-        Text(title, style: const TextStyle(color: Colors.red, fontSize:18, fontFamily: 'merriweather')),
+        Text(title, style: const TextStyle(color: Colors.red, fontSize:18, fontFamily: 'merriweather',fontWeight: FontWeight.w700)),
         
         const SizedBox(height: 12),
     
         Padding (
           padding: const EdgeInsets.only(top: 0, left: 50, right: 50, bottom: 0),
-          child: Text(texto, style: const TextStyle(color: Color(0xFF411016), fontFamily: 'aftika-bold')),
+          child: Text(texto, style: TextStyle(color: Color(0xFF411016),fontSize: 12, fontFamily:'Aftika',fontWeight: FontWeight.w700)),
         )
       ],
     );
