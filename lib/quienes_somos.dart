@@ -159,7 +159,7 @@ class ValoresAdicionales extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         const SizedBox(height: 60),
-        Text(title, style: const TextStyle(color: Colors.red, fontSize:25, fontFamily: 'merriweather')),
+        Text(title, style: const TextStyle(color: Color(0xFFD70021), fontSize:25, fontFamily: 'merriweather')),
         
         const SizedBox(height: 12),
         
@@ -198,7 +198,7 @@ class ValoresJuanValdez extends StatelessWidget {
 
         const SizedBox(height: 12),
 
-        Text(title, style: const TextStyle(color: Colors.red, fontSize:18, fontFamily: 'merriweather',fontWeight: FontWeight.w700)),
+        Text(title, style: const TextStyle(color: Color(0XFFD70021), fontSize:18, fontFamily: 'merriweather',fontWeight: FontWeight.w700)),
         
         const SizedBox(height: 12),
     
@@ -227,7 +227,7 @@ class MisionVision extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10), // Espacio de 20 en cada lado
           child: Container(
-            color: Colors.red, // Puedes cambiar el color según tus necesidades
+            color: Color(0xFFD70021), // Puedes cambiar el color según tus necesidades
             height: 45, // Altura del Container
             child: Center(
               child: Text(
@@ -248,8 +248,9 @@ class MisionVision extends StatelessWidget {
             textAlign: TextAlign.center,
             style: const TextStyle(
               color: Color(0xFF411016),
-              fontFamily: 'aftika-bold',
-              fontSize: 13.5
+              fontFamily: 'Aftika',
+              fontWeight: FontWeight.w700,
+              fontSize: 13
             )
           ),
         ),

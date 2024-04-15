@@ -76,13 +76,13 @@ class CambioClimatico extends StatelessWidget {
                     children: [
                       const Text(
                         'Con el objetivo de aportar con el cumplimiento del Acuerdo de París, el cual busca asegurar que el aumento de la temperatura del planeta no supere los 1.5 grados Celsius para el año 2050, Procafecol S.A. se adhirió a la campaña global Race to Zero durante el Festival Global Citizen en septiembre de 2022 en Nueva York. Dicho festival reunió en Accra (Ghana) y en Nueva York (EE.UU.) a artistas, líderes mundiales, empresarios y ciudadanos en favor del fin de la pobreza extrema y la lucha contra el cambio climático.'
-                        , style: TextStyle(fontFamily: 'Aftika',fontWeight: FontWeight.w600, fontSize: 12)
+                        , style: TextStyle(fontFamily: 'Aftika',fontWeight: FontWeight.w600, fontSize: 13)
                         , textAlign: TextAlign.justify
                       ),
                       const SizedBox(height: 20),
                       const Text(
                         'Esta campaña busca que los participantes logren un 50% de reducciones a 2030 y el balance cero a 2050. El plan con metas de reducción a corto, mediano y largo plazo deberá ser radicado en los próximos 24 meses, contando desde septiembre de 2022, mes en el que se hizo el compromiso con Race to Zero'
-                        , style: TextStyle(fontFamily: 'Aftika', fontSize: 12,fontWeight: FontWeight.w600)
+                        , style: TextStyle(fontFamily: 'Aftika', fontSize: 13,fontWeight: FontWeight.w600)
                         , textAlign: TextAlign.justify,
                       ),
                       const SizedBox(height: 30),
@@ -90,7 +90,7 @@ class CambioClimatico extends StatelessWidget {
                       const SizedBox(height: 15),
                       const Text(
                         'Por ende, para el año 2023 se propone la activación del Comité de Cambio Climático para hacer seguimiento a la implementación del Plan de Reducción de Emisiones. Este tendrá un espacio dentro del ya existente Comité de Sostenibilidad. Finalmente, se puede ver como un logro la creación del Comité de Gobierno Corporativo y Sostenibilidad dentro de la Junta Directiva (máximo órgano de gobierno), con el cual se busca dar mayor relevancia y visibilidad a las acciones de la organización en términos de sostenibilidad.'
-                        , style: TextStyle(fontFamily: 'Aftika',fontSize: 12,fontWeight: FontWeight.w600)
+                        , style: TextStyle(fontFamily: 'Aftika',fontSize: 13,fontWeight: FontWeight.w600)
                         , textAlign: TextAlign.justify,
                       )
                     ]
