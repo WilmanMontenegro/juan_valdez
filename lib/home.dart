@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:juan_valdez/widgets/images.dart';
-import 'header.dart';
+import 'widgets/header.dart';
 import 'widgets/carrusel.dart';
 import 'widgets/contadores.dart';
 import 'widgets/images.dart';
 import 'widgets/redes_sociales.dart';
+import 'widgets/pie_de_pagina.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -20,6 +21,7 @@ class HomePage extends StatelessWidget {
                 Carrusel(),
                 Contadores(),
                 Images(),
+                PieDePagina()
               ],
             ),
           ),
