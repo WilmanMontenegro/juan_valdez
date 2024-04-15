@@ -52,7 +52,7 @@ class QuieneSomos extends StatelessWidget {
 
             AspectRatio( //Cambiar el tamaño de la imagen (Aspecto)
               aspectRatio: 2.8,
-              child: Image.asset('assets/images/cafe.png', fit: BoxFit.cover)
+              child: Image.asset('assets/images/cafe.jpg', fit: BoxFit.cover)
             ),
 
             Container(
@@ -88,7 +88,7 @@ class QuieneSomos extends StatelessWidget {
               children: [
                 AspectRatio( //Cambiar el tamaño de la imagen (Aspecto)
                 aspectRatio: 2.8,
-                child: Image.asset('assets/images/cafe.jpg', fit: BoxFit.cover)
+                child: Image.asset('assets/images/cafe2.jpg', fit: BoxFit.cover)
                ),
 
                const Positioned( //Agregar el texto sobre la Imagen
